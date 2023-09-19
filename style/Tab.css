@@ -1,0 +1,99 @@
+.tab {
+    width: 100%;
+    margin: 0 auto;
+}
+.section {
+    width: 1170px;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+.section-tabs {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+}
+.section-tabs__first{
+    display: inline-block;
+    width: 186px;
+    height: 40px;
+    border-top: 1px solid #C6CBCD;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    text-align: center;
+    font-family: Open Sans;
+    border-radius: 5px 5px 0px 0px;
+    line-height: 40px;
+}
+.section-tabs__second {
+    display: inline-block;
+    width: 195px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    text-align: center;
+    font-family: Open Sans;
+    line-height: 40px;
+}
+.section-tabs__third {
+    display: inline-block;
+    width: 788px;
+    height: 40px;
+    border-bottom: 1px solid #C6CBCD;
+    font-family: Open Sans;
+    padding-left: 20px;
+    line-height: 40px;
+}
+.section-large {
+    height: 500px;
+    border-left: 1px solid #C6CBCD;
+    border-right: 1px solid #C6CBCD;
+    border-bottom: 1px solid #C6CBCD;
+    margin: 0;
+    display: flex;
+}
+.section-large-left {
+    display: inline-block;
+    width: 694px;
+    vertical-align: top;
+}
+.section-large-left__title {
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 100px;
+    font-family: Open Sans;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-large-left__subtitle {
+    display: inline-block;
+    padding-left: 100px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section-large-left__button {
+    display: block;
+    text-decoration: none;
+    width: 270px;
+    height: 58px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    background-color: #ec7979;
+    color: #FFF;
+    text-align: center;
+    line-height: 58px;
+    margin-left: 100px;
+}
+.section-large-right {
+    display: flex;
+}
+.section-large-right__image {
+    display: inline-block;
+}
