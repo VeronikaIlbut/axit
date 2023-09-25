@@ -1,0 +1,63 @@
+.desing {
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+    background-image: url("/imges/fon.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+.desing-fon {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.desing-fon-box {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.desing-fon-box__title {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.desing-fon-box__line {
+    width: 170px;
+    border-bottom: 1px solid;
+    color: #FFF;
+    margin: 0 auto;
+}
+.desing-fon-box__lorem {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 40px;
+}
+.desing-fon-box__button{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    border: 1px solid white;
+    width: 370px;
+    height: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-top: 70px;
+    margin-left: 400px;
+}

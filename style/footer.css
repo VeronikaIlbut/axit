@@ -1,0 +1,34 @@
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    background: black;
+}
+.footer-fon {
+    width: 1170px;
+    height: 164px;
+    margin: 0 auto;
+}
+.footer-fon-img {
+    display: flex;
+    width: 54px;
+    text-align: center;
+    padding-left: 270px;
+    padding-top: 20px;
+}
+.footer-fon-img__icon {
+    padding: 10px; 
+}
+.footer-fon-text{
+    margin: 0 auto;
+}
+.footer-fon-text__subtitle {
+    margin: 0;
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
