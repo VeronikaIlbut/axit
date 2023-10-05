@@ -1,7 +1,7 @@
 .header {
     width: 100%;
     height: 1030px;
-    background-image: url(/imges/header-fon.png);
+    background-image: url(./imges/header-fon.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
@@ -130,7 +130,83 @@
     line-height: normal;
     background-color: #ec7979;
     border: none;
-    margin-top: 66px;
+    margin-top: 68px;
     border-radius: 0px 0px 10px 10px;
-    
+}
+@media screen and (max-width: 1200px) {
+    .header-box-black-top {
+        width: 100%;
+        justify-content: center;
+    }
+    .header-box-black-top-logo {
+        width: 100%;
+        justify-content: center;
+    }
+    .header-box-black-top-navigation {
+        width: 100%;
+        justify-content: center;
+        padding-left: 10px;
+    }
+    .header-box-black-top-navigation__link {
+        width: 100%;
+        justify-content: center;
+    }
+    .header-box-lg {
+        justify-content: center;
+        width: 100%;
+    }
+    .header-box-lg-left {
+        width: 500px;
+    }
+    .header-box-lg-right {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 940px) {
+    .header-box-lg-left-logo {
+        display: none;
+    }
+    .header-box-lg {
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-box-lg-left {
+        margin-top: 0;
+        text-align: center;
+    }
+    .header-box-lg-left__line {
+    margin: 0 auto;
+    }
+    .header-box-lg-left__button {
+        margin-left: 110px;
+        width: 288px;
+    }
+    .header-box-lg-right {
+        margin-top: 50px;
+        width: 288px;
+        height: 330px;
+    }
+    .header-box-lg-right__title {
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+    .header-box-lg-right-border {
+        width: 240px;
+        height: 60px;
+    }
+    .header-box-lg-right__button {
+        margin-top: 40px;
+    }
+    header-box-black-top-logo__icon {
+        margin: 0;
+        padding: 0;
+    }
+}
+@media screen and (max-width: 540px) {
+    .header-box-black-top-navigation {
+        display: none;
+    }
 }

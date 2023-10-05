@@ -12,7 +12,9 @@
     display: flex;
     width: 54px;
     text-align: center;
-    padding-left: 270px;
+    /* padding-left: 270px; */
+    margin: 0 auto;
+    justify-content: center;
     padding-top: 20px;
 }
 .footer-fon-img__icon {
@@ -31,4 +33,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+@media screen and (max-width: 1200px){
+    .footer-fon {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 650px) {
+    .footer-fon-img__icon {
+        width: 26px;
+        height: 26px;
+        padding-top: 20px;
+    }
 }

@@ -6,12 +6,17 @@
     width: 1170px;
     margin: 0 auto;
 }
-.contact-block-left {
+.contact-block-lg {
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.contact-block-lg-left {
     display: inline-flex;
     flex-direction: column;
     width: 570px;
 }
-.contact-block-border {
+.contact-block-lg-border {
     display: inline-flex;
     width: 560px;
     height: 70px;
@@ -24,10 +29,10 @@
     font-weight: 400;
     line-height: normal;
 }
-.contact-block-rigth {
+.contact-block-lg-rigth {
     display: inline-flex;
 }
-.contact-block-message {
+.contact-block-lg-message {
     display: inline-flex;
     width: 560px;
     border: none;
@@ -44,7 +49,7 @@
     margin-top: 50px;
     margin-bottom: 70px;
     margin-left: 400px;
-    padding-left: 100px;
+    padding-left: 120px;
     display: flex;
     width: 370px;
     height: 58px;
@@ -60,5 +65,71 @@
     text-transform: capitalize;
     border: none;
     background-color: #ec7979;
-
 }
+@media screen and (max-width: 1200px){
+    .contact-block {
+        width: 100%;
+    }
+    .contact-block-lg{
+        width: 100%;
+    }
+    .contact-block-lg-border {
+        width: 486px;
+    }
+    .contact-block-lg-rigth {
+        width: 500px;
+    }
+    .contact-block-lg-left {
+        width: 486px;
+    }
+    .contact-block-lg-message {
+        width: 486px;
+    }
+    .contact-block__button {
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 1050px){
+    .contact-block-lg {
+        flex-direction: column;
+        align-items: center;
+    }  
+    .contact-block-lg-message{
+        margin-left: 0;
+    }
+    .contact-block__button {
+        margin-left: 220px;
+    }
+}
+@media screen and (max-width: 740px) {
+    .contact-block__button {
+        margin-left: 180px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .contact-block-lg-border {
+        width: 288px;
+    }
+    .contact-block-lg-message {
+        width: 288px;
+    }
+    .contact-block-lg-rigth {
+        width: 300px;
+    }
+    .contact-block-lg-left {
+        width: 300px;
+    }
+    .contact-block__button {
+        margin-left: 150px;
+        width: 288px;
+        height: 50px;
+        padding-left: 90px;
+    }
+}
+@media screen and (max-width: 510px) {
+    .contact-block__button {
+        margin-left: 100px;
+    }
+}
+
+    

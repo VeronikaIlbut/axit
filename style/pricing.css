@@ -83,3 +83,35 @@
     font-weight: 400;
     line-height: normal;
 }
+@media screen and (max-width: 1200px) {
+    .head {
+        width: 99%;
+    }
+    .blocks{
+        width: 99%;
+    }
+    .blocks-tarif {
+        width: 316px;
+    }
+    .blocks-tarif__title {
+        width: 100%;
+    }
+    .blocks-tarif__price {
+        width: 100%;
+    }
+    .blocks-tarif__subtitle {
+        width: 100%;
+    }
+    .blocks-tarif__text {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 750px) {
+    .pricing {
+        height: 2000px;
+    }
+    .blocks {
+        flex-direction: column;
+        align-items: center;
+    }
+}

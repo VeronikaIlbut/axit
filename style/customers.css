@@ -50,7 +50,7 @@
 }
 .container-people-xs__name {
     display: flex;
-    width: 269px;
+    width: 220px;
     height: 54px;
     flex-direction: column;
     justify-content: center;  
@@ -65,7 +65,7 @@
     top: 0px;
 }
 .container-people-xs__post {
-    width: 270px;
+    width: 100px;
     color: #000;
     font-family: Raleway;
     font-size: 18px;
@@ -75,4 +75,21 @@
     position: absolute; 
     left: 100px;
     top: 65px;
+}
+@media screen and (max-width: 1200px){
+    .head {
+        width: 100%;
+    }
+    .container { 
+        width: 100%;
+    }
+    .container-people-lg__review {
+        width: 317px;
+    }
+}
+@media screen and (max-width: 980px){
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
 }

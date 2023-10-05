@@ -18,3 +18,9 @@
 .subtitle {
     font-family: 'Raleway', sans-serif;
 }
+@media screen and (max-width: 1200px){
+    .boxes {
+        width: 99%;
+    }
+
+}
